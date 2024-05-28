@@ -35,16 +35,21 @@
         }
         .results {
             margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
         }
         .results div {
-            margin-bottom: 10px;
+            margin-bottom: 0;
+        }
+        .highlight {
+            color: rgb(255, 0, 0);
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Armandas, Ruslanas, Nojus 2C</h1>
-        <h1>Programa - MARTA Counteris</h1>
+        <h1>Programa - <span class="highlight">MARTA</span> Counteris</h1>
         <textarea id="textInput" placeholder="Tekstas"></textarea>
         <div class="results">
             <div id="charCount">Simboliu: 0</div>
